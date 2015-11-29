@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C6CFED501C0A95EF00AC881D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CFED4F1C0A95EF00AC881D /* AppDelegate.swift */; };
+		C6CFED521C0A95EF00AC881D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CFED511C0A95EF00AC881D /* FirstViewController.swift */; };
+		C6CFED541C0A95EF00AC881D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CFED531C0A95EF00AC881D /* SecondViewController.swift */; };
+		C6CFED571C0A95EF00AC881D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6CFED551C0A95EF00AC881D /* Main.storyboard */; };
+		C6CFED591C0A95EF00AC881D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6CFED581C0A95EF00AC881D /* Assets.xcassets */; };
+		C6CFED5C1C0A95EF00AC881D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6CFED5A1C0A95EF00AC881D /* LaunchScreen.storyboard */; };
+		C6CFED671C0A95EF00AC881D /* LRX_Trainer_ToolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CFED661C0A95EF00AC881D /* LRX_Trainer_ToolsTests.swift */; };
+		C6CFED721C0A95EF00AC881D /* LRX_Trainer_ToolsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CFED711C0A95EF00AC881D /* LRX_Trainer_ToolsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C6CFED631C0A95EF00AC881D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6CFED441C0A95EF00AC881D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6CFED4B1C0A95EF00AC881D;
+			remoteInfo = "LRX Trainer Tools";
+		};
+		C6CFED6E1C0A95EF00AC881D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6CFED441C0A95EF00AC881D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6CFED4B1C0A95EF00AC881D;
+			remoteInfo = "LRX Trainer Tools";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C6CFED4C1C0A95EF00AC881D /* LRX Trainer Tools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LRX Trainer Tools.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6CFED4F1C0A95EF00AC881D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C6CFED511C0A95EF00AC881D /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		C6CFED531C0A95EF00AC881D /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		C6CFED561C0A95EF00AC881D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C6CFED581C0A95EF00AC881D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6CFED5B1C0A95EF00AC881D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C6CFED5D1C0A95EF00AC881D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6CFED621C0A95EF00AC881D /* LRX Trainer ToolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LRX Trainer ToolsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6CFED661C0A95EF00AC881D /* LRX_Trainer_ToolsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LRX_Trainer_ToolsTests.swift; sourceTree = "<group>"; };
+		C6CFED681C0A95EF00AC881D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6CFED6D1C0A95EF00AC881D /* LRX Trainer ToolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LRX Trainer ToolsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6CFED711C0A95EF00AC881D /* LRX_Trainer_ToolsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LRX_Trainer_ToolsUITests.swift; sourceTree = "<group>"; };
+		C6CFED731C0A95EF00AC881D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6CFED491C0A95EF00AC881D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6CFED5F1C0A95EF00AC881D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6CFED6A1C0A95EF00AC881D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6CFED431C0A95EF00AC881D = {
+			isa = PBXGroup;
+			children = (
+				C6CFED4E1C0A95EF00AC881D /* LRX Trainer Tools */,
+				C6CFED651C0A95EF00AC881D /* LRX Trainer ToolsTests */,
+				C6CFED701C0A95EF00AC881D /* LRX Trainer ToolsUITests */,
+				C6CFED4D1C0A95EF00AC881D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C6CFED4D1C0A95EF00AC881D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6CFED4C1C0A95EF00AC881D /* LRX Trainer Tools.app */,
+				C6CFED621C0A95EF00AC881D /* LRX Trainer ToolsTests.xctest */,
+				C6CFED6D1C0A95EF00AC881D /* LRX Trainer ToolsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6CFED4E1C0A95EF00AC881D /* LRX Trainer Tools */ = {
+			isa = PBXGroup;
+			children = (
+				C6CFED4F1C0A95EF00AC881D /* AppDelegate.swift */,
+				C6CFED511C0A95EF00AC881D /* FirstViewController.swift */,
+				C6CFED531C0A95EF00AC881D /* SecondViewController.swift */,
+				C6CFED551C0A95EF00AC881D /* Main.storyboard */,
+				C6CFED581C0A95EF00AC881D /* Assets.xcassets */,
+				C6CFED5A1C0A95EF00AC881D /* LaunchScreen.storyboard */,
+				C6CFED5D1C0A95EF00AC881D /* Info.plist */,
+			);
+			path = "LRX Trainer Tools";
+			sourceTree = "<group>";
+		};
+		C6CFED651C0A95EF00AC881D /* LRX Trainer ToolsTests */ = {
+			isa = PBXGroup;
+			children = (
+				C6CFED661C0A95EF00AC881D /* LRX_Trainer_ToolsTests.swift */,
+				C6CFED681C0A95EF00AC881D /* Info.plist */,
+			);
+			path = "LRX Trainer ToolsTests";
+			sourceTree = "<group>";
+		};
+		C6CFED701C0A95EF00AC881D /* LRX Trainer ToolsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C6CFED711C0A95EF00AC881D /* LRX_Trainer_ToolsUITests.swift */,
+				C6CFED731C0A95EF00AC881D /* Info.plist */,
+			);
+			path = "LRX Trainer ToolsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6CFED4B1C0A95EF00AC881D /* LRX Trainer Tools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6CFED761C0A95EF00AC881D /* Build configuration list for PBXNativeTarget "LRX Trainer Tools" */;
+			buildPhases = (
+				C6CFED481C0A95EF00AC881D /* Sources */,
+				C6CFED491C0A95EF00AC881D /* Frameworks */,
+				C6CFED4A1C0A95EF00AC881D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LRX Trainer Tools";
+			productName = "LRX Trainer Tools";
+			productReference = C6CFED4C1C0A95EF00AC881D /* LRX Trainer Tools.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C6CFED611C0A95EF00AC881D /* LRX Trainer ToolsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6CFED791C0A95EF00AC881D /* Build configuration list for PBXNativeTarget "LRX Trainer ToolsTests" */;
+			buildPhases = (
+				C6CFED5E1C0A95EF00AC881D /* Sources */,
+				C6CFED5F1C0A95EF00AC881D /* Frameworks */,
+				C6CFED601C0A95EF00AC881D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6CFED641C0A95EF00AC881D /* PBXTargetDependency */,
+			);
+			name = "LRX Trainer ToolsTests";
+			productName = "LRX Trainer ToolsTests";
+			productReference = C6CFED621C0A95EF00AC881D /* LRX Trainer ToolsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C6CFED6C1C0A95EF00AC881D /* LRX Trainer ToolsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6CFED7C1C0A95EF00AC881D /* Build configuration list for PBXNativeTarget "LRX Trainer ToolsUITests" */;
+			buildPhases = (
+				C6CFED691C0A95EF00AC881D /* Sources */,
+				C6CFED6A1C0A95EF00AC881D /* Frameworks */,
+				C6CFED6B1C0A95EF00AC881D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6CFED6F1C0A95EF00AC881D /* PBXTargetDependency */,
+			);
+			name = "LRX Trainer ToolsUITests";
+			productName = "LRX Trainer ToolsUITests";
+			productReference = C6CFED6D1C0A95EF00AC881D /* LRX Trainer ToolsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6CFED441C0A95EF00AC881D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Tony Palladini";
+				TargetAttributes = {
+					C6CFED4B1C0A95EF00AC881D = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					C6CFED611C0A95EF00AC881D = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = C6CFED4B1C0A95EF00AC881D;
+					};
+					C6CFED6C1C0A95EF00AC881D = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = C6CFED4B1C0A95EF00AC881D;
+					};
+				};
+			};
+			buildConfigurationList = C6CFED471C0A95EF00AC881D /* Build configuration list for PBXProject "LRX Trainer Tools" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6CFED431C0A95EF00AC881D;
+			productRefGroup = C6CFED4D1C0A95EF00AC881D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6CFED4B1C0A95EF00AC881D /* LRX Trainer Tools */,
+				C6CFED611C0A95EF00AC881D /* LRX Trainer ToolsTests */,
+				C6CFED6C1C0A95EF00AC881D /* LRX Trainer ToolsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6CFED4A1C0A95EF00AC881D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6CFED5C1C0A95EF00AC881D /* LaunchScreen.storyboard in Resources */,
+				C6CFED591C0A95EF00AC881D /* Assets.xcassets in Resources */,
+				C6CFED571C0A95EF00AC881D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6CFED601C0A95EF00AC881D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6CFED6B1C0A95EF00AC881D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6CFED481C0A95EF00AC881D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6CFED541C0A95EF00AC881D /* SecondViewController.swift in Sources */,
+				C6CFED501C0A95EF00AC881D /* AppDelegate.swift in Sources */,
+				C6CFED521C0A95EF00AC881D /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6CFED5E1C0A95EF00AC881D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6CFED671C0A95EF00AC881D /* LRX_Trainer_ToolsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6CFED691C0A95EF00AC881D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6CFED721C0A95EF00AC881D /* LRX_Trainer_ToolsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C6CFED641C0A95EF00AC881D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6CFED4B1C0A95EF00AC881D /* LRX Trainer Tools */;
+			targetProxy = C6CFED631C0A95EF00AC881D /* PBXContainerItemProxy */;
+		};
+		C6CFED6F1C0A95EF00AC881D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6CFED4B1C0A95EF00AC881D /* LRX Trainer Tools */;
+			targetProxy = C6CFED6E1C0A95EF00AC881D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C6CFED551C0A95EF00AC881D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6CFED561C0A95EF00AC881D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C6CFED5A1C0A95EF00AC881D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6CFED5B1C0A95EF00AC881D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C6CFED741C0A95EF00AC881D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C6CFED751C0A95EF00AC881D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6CFED771C0A95EF00AC881D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "LRX Trainer Tools/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "UWF-Capstone.LRX-Trainer-Tools";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C6CFED781C0A95EF00AC881D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "LRX Trainer Tools/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "UWF-Capstone.LRX-Trainer-Tools";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C6CFED7A1C0A95EF00AC881D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "LRX Trainer ToolsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "UWF-Capstone.LRX-Trainer-ToolsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LRX Trainer Tools.app/LRX Trainer Tools";
+			};
+			name = Debug;
+		};
+		C6CFED7B1C0A95EF00AC881D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "LRX Trainer ToolsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "UWF-Capstone.LRX-Trainer-ToolsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LRX Trainer Tools.app/LRX Trainer Tools";
+			};
+			name = Release;
+		};
+		C6CFED7D1C0A95EF00AC881D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "LRX Trainer ToolsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "UWF-Capstone.LRX-Trainer-ToolsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "LRX Trainer Tools";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C6CFED7E1C0A95EF00AC881D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "LRX Trainer ToolsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "UWF-Capstone.LRX-Trainer-ToolsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "LRX Trainer Tools";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6CFED471C0A95EF00AC881D /* Build configuration list for PBXProject "LRX Trainer Tools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6CFED741C0A95EF00AC881D /* Debug */,
+				C6CFED751C0A95EF00AC881D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6CFED761C0A95EF00AC881D /* Build configuration list for PBXNativeTarget "LRX Trainer Tools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6CFED771C0A95EF00AC881D /* Debug */,
+				C6CFED781C0A95EF00AC881D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C6CFED791C0A95EF00AC881D /* Build configuration list for PBXNativeTarget "LRX Trainer ToolsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6CFED7A1C0A95EF00AC881D /* Debug */,
+				C6CFED7B1C0A95EF00AC881D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C6CFED7C1C0A95EF00AC881D /* Build configuration list for PBXNativeTarget "LRX Trainer ToolsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6CFED7D1C0A95EF00AC881D /* Debug */,
+				C6CFED7E1C0A95EF00AC881D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6CFED441C0A95EF00AC881D /* Project object */;
+}
